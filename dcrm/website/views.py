@@ -5,6 +5,7 @@ from django.contrib import messages
 
 
 def home(request):
+    
     return render(request, 'home.html', {})
 
 def login_user(request):
